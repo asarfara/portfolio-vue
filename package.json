@@ -1,0 +1,48 @@
+{
+  "name": "portfolio-vercel",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asarfara/portfolio-vercel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asarfara/portfolio-vercel/issues"
+  },
+  "homepage": "https://github.com/asarfara/portfolio-vercel#readme",
+  "dependencies": {
+    "@vue/cli-plugin-babel": "^4.5.12",
+    "@vue/cli-service": "^4.5.12",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "vue": "^2.6.12",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "devDependencies": {
+    "@avalanche/eslint-config": "^4.0.0",
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "@tailwindcss/postcss7-compat": "^2.1.0",
+    "@vue/cli-plugin-eslint": "^4.5.12",
+    "autoprefixer": "^9.8.6",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.23.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-vue": "^7.8.0",
+    "node-sass": "^5.0.0",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  }
+}
