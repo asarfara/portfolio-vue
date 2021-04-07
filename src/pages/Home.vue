@@ -23,12 +23,11 @@
         </p>
         <p class="pt-8 text-sm">I am a software developer from Melbourne, Australia. I love programming on different technologies, which expands my horizons of learning and exploring new technologies.</p>
         <div class="pt-12 pb-8 space-x-4">
-          <button class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full">
-            Portfolio
-          </button>
-          <button class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full">
-            Resume
-          </button>
+          <router-link to="/resume">
+            <button class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full">
+              Resume
+            </button>
+          </router-link>
         </div>
         <div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
           <a class="link" href="https://twitter.com/aly_hellboy" data-tippy-content="@twitter_handle">
@@ -66,6 +65,6 @@
 
 <script>
   export default {
-    name: 'App',
+    name: 'Home',
   };
 </script>

@@ -1,10 +1,23 @@
 import Vue from 'vue';
-import App from './App.vue';
+import VueRouter from 'vue-router'
+
+Vue.config.productionTip = false;
+Vue.use(VueRouter)
 
 import './styles/index.css';
 
-Vue.config.productionTip = false;
+import Home from './pages/Home.vue';
+import Resume from './pages/Resume.vue';
+
+const router = new VueRouter({
+  mode: 'history',
+  base: __dirname,
+  routes: [
+    { path: '/', component: Home },
+    { path: '/resume', component: Resume }
+  ]
+});
 
 new Vue({
-  render: h => h(App),
-}).$mount(`#app`);
+  router
+}).$mount('#app')
